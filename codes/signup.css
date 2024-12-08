@@ -1,0 +1,203 @@
+.body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    position: relative;
+    margin: 0;
+    overflow-x: hidden;
+    overflow: auto;
+    background-attachment: fixed;
+}
+
+.logoamazon {
+    display: block;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 600px;
+}
+
+.container {
+    position: relative;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    height: 570px;
+    width: 400px;
+    left: 450px;
+    top: -10px;
+    border: 1px solid rgb(56, 56, 56);
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container #heading {
+    display: block;
+    position: relative;
+    font-weight: 500;
+    color: black;
+    font-size: 25px;
+    left: 23px;
+}
+
+.container .input1 #enteremail {
+    display: block;
+    position: relative;
+    width: 90%;
+    height: 30px;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 1px;
+    left: 15px;
+}
+
+.container .input2 #entername {
+    display: block;
+    position: relative;
+    width: 90%;
+    height: 30px;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 1px;
+    left: 15px;
+    font-size: 15px;
+}
+
+.container .input2 #entername::placeholder {
+    padding-left: 10px;
+}
+
+.container .input3 #enterpassword {
+    display: block;
+    position: relative;
+    width: 90%;
+    height: 30px;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 1px;
+    left: 15px;
+    font-size: 15px;
+}
+
+.container .input3 #enterpassword::placeholder {
+    padding-left: 10px;
+}
+
+.container .input1 #Email {
+    display: block;
+    position: relative;
+    font-size: 15px;
+    left: 15px;
+    top: 7px;
+}
+
+.container .input2 #Name {
+    display: block;
+    position: relative;
+    font-size: 15px;
+    left: 15px;
+    top: 7px;
+}
+
+.container .input3 #password {
+    display: block;
+    position: relative;
+    font-size: 15px;
+    left: 15px;
+    top: 7px;
+}
+
+.container #button {
+    display: block;
+    position: relative;
+    background-color: #FFD814;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.24);
+    width: 90%;
+    left: 15px;
+    height: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    top: 15px;
+    border-color: rgba(0,0,0,0);
+    border-width: 0%;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.container #button:hover {
+    background-color: #d4b103;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    width: 93%;
+    height: 33px;
+    font-size: 15px;
+    left: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container #button:active {
+    transform: scale(0.95); 
+}
+
+.container #agree {
+    display: block;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    overflow: auto;
+    text-align: left;
+    left: 15px;
+    top: 14px;
+    white-space: pre-wrap;
+    line-height: 1.2;
+}
+
+.container #hr1 {
+    display: block;
+    position: relative;
+    top: 20px;
+    width: 90%;
+    background-color: rgb(255, 253, 253);
+}
+
+.container #hr2 {
+    display: block;
+    position: relative;
+    top: 10px;
+    width: 90%;
+    background-color: rgb(255, 253, 253);
+}
+
+.container #h51 {
+    display: block;
+    position: relative;
+    top: 18px;
+    left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(24, 24, 24);
+    font-weight: 600;
+}
+
+.container #create {
+    display: block;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 102, 255);
+    font-size: 12px;
+    left: 15px;
+    top: -3px;
+}
+
+.container #already {
+    display: block;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 15px;
+    top: 20px;
+    font-size: 13px;
+}

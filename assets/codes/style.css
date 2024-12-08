@@ -1,0 +1,1796 @@
+
+
+body {
+    position: relative;
+    background-color: rgb(165, 165, 165);
+    background-size: 1342px 500px;
+    background-image: url(/assets/backgroundcustom.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body:before {
+    content: '';
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 150%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0)30%, rgb(165, 165, 165), rgb(0, 0, 0));
+    pointer-events: none;
+    z-index: -10;
+}
+
+
+
+                                                            /*navigationbar*/
+
+.navigation-bar {
+    display: block;
+    position: relative;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    height: 75px;
+    width: 100%;
+    
+}
+
+#logo {
+    display: flex;
+    height: 80px;
+    width: 80px;
+    margin-top: -3px;
+    margin-left: 25px;
+}
+
+.navigation-bar .deliverto {
+    display: block;
+    color: rgb(156, 154, 154);
+    font-size: 13px;
+    margin-top: -60px;
+    margin-left: 153px;
+}
+
+.navigation-bar .loclogo {
+    display: block;
+    height: 15px;
+    width: 15px;
+    margin-top: -15px;
+    margin-left: 135px;
+}
+ #country {
+    display: block;
+    height: 20px;
+    width: 90px;
+    margin-top: -14px ;
+    margin-left: 152px;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-weight: bold;
+    border: 0ch;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+ }
+
+ .navigation-bar .searchbar {
+    display: block;
+    height: 40px;
+    width: 600px;
+    margin-left: 250px;
+    margin-top: -36px;
+    font-size: 12px;
+    padding-left: 10px;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 7px 0px 0px 7px;
+ }
+
+ #searchbutton {
+    display: block;
+   background-color: rgb(253, 196, 89);
+   height: 40px;
+   width: 40px;
+   margin-left: 850px;
+   margin-top: -40px;
+   border-color: rgba(0, 0, 0, 0);
+   border-width: 0%;
+   border-radius: 0px 5px 5px 0px;
+   transition-duration: 0.1s;
+ }
+
+ #searchiconpng {
+    height: 18px;
+    width: 18px;
+    margin-top: 2px;
+ }
+
+ #searchbutton:hover {
+    background-color: rgb(253, 178, 39);
+    cursor: pointer;
+ }
+
+.navigation-bar #loginbutton {
+    display: block;
+    height: 40px;
+    width: 140px;
+    background-color: rgb(253, 196, 89);
+    color: rgb(0, 0, 0);
+    margin-top: -40px;
+    margin-left: 930px;
+    border-width: 0%;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+
+.navigation-bar #loginbutton:hover {
+    background-color: rgb(255, 172, 18);
+}
+
+.returnsorder .divreturnsorder .resturns {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    margin-top: -37px;
+    margin-left: 1100px;
+    text-decoration: none;
+}
+
+.returnsorder .divreturnsorder .orders {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: -16px;
+    margin-left: 1100px;
+    text-decoration: none;
+}
+
+.navigation-bar .cart {
+    display: block;
+    height: 190px;
+    width: 190px;
+    margin-top: -133px;
+    margin-left: 585px;
+}
+
+
+
+
+
+
+                                                          /*Main*/
+
+
+.heading {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    text-shadow: 20px 20px 20px rgba(7, 7, 7, 0.5);
+}
+
+.liner {
+    text-align: center;
+    color: rgb(255, 253, 243);
+    font-size: 30px;
+    margin-top: -95px;
+    font-weight: bold;text-shadow: 15px 15px 15px rgba(7, 7, 7, 0.5);
+}
+
+.container1 {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    height: 430px;
+    width: 300px;
+    bottom: 16px;
+    left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1%;
+    border-color: rgb(0,0,0,0);
+    padding: 0%;
+    
+}
+
+.container1 .text-1 {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+    padding-left: 15px;
+}
+
+.container1 .box1 {
+    position: relative;
+    display: block;
+    top: 600px;
+}
+
+.container1 .box1 .div1 #phone1 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container1 .box1 .div1 #phonetext1 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+
+.container1 .box1 .div2 #phone2 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container1 .box1 .div2 #phonetext2 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+.container1 .box1 .div3 #phone3 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container1 .box1 .div3 #phonetext3 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+.container1 .box1 .div4 #phone4 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container1 .box1 .div4 #phonetext4 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+.div2 {
+    position: relative;
+    display: block;
+    margin-top: -170px;
+    margin-left: 138px;
+}
+
+.div4 {
+    position: relative;
+    display: block;
+    margin-top: -170px;
+    margin-left: 138px;
+}
+
+.container1 .box1 #viewmore1 {
+    position: relative;
+    display: block;
+    color: rgb(0, 60, 255);
+    margin-top: -8px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.box1 {
+    position: relative;
+    display: block;
+    margin-top: -610px;
+    margin-left: 15px;
+}
+
+
+
+                                                            /*box 2*/
+
+.container2 {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    height: 430px;
+    width: 300px;
+    bottom: 16px;
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1%;
+    border-color: rgb(0,0,0,0);
+    padding: 0%;
+    
+}
+
+.container2 .atext-1 {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+    padding-top: 0px;
+    padding-left: 15px;
+}
+
+.container2 .box2 {
+    position: relative;
+    display: block;
+    top: 600px;
+}
+
+.container2 .box2 .adiv1 #aphone1 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container2 .box2 .adiv1 #aphonetext1 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+
+.container2 .box2 .adiv2 #aphone2 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container2 .box2 .adiv2 #aphonetext2 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+.container2 .box2 .adiv3 #aphone3 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container2 .box2 .adiv3 #aphonetext3 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+.container2 .box2 .adiv4 #aphone4 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container2 .box2 .adiv4 #aphonetext4 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+.adiv2 {
+    position: relative;
+    display: block;
+    margin-top: -170px;
+    margin-left: 138px;
+}
+
+.adiv4 {
+    position: relative;
+    display: block;
+    margin-top: -170px;
+    margin-left: 138px;
+}
+
+.container2 .box2 #aviewmore1 {
+    position: relative;
+    display: block;
+    color: rgb(0, 60, 255);
+    margin-top: -8px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.box2 {
+    position: relative;
+    display: block;
+    margin-top: -610px;
+    margin-left: 15px;
+}
+
+
+
+                                                             /*box 3*/
+
+.container3 {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    height: 430px;
+    width: 300px;
+    bottom: 16px;
+    left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1%;
+    border-color: rgb(0,0,0,0);
+    padding: 0%;
+    
+}
+
+.container3 .btext-1 {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+    padding-top: 0px;
+    padding-left: 15px;
+}
+
+.container3 .box3 {
+    position: relative;
+    display: block;
+    top: 600px;
+}
+
+.container3 .box3 .bdiv1 #bphone1 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container3 .box3 .bdiv1 #bphonetext1 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+
+.container3 .box3 .bdiv2 #bphone2 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container3 .box3 .bdiv2 #bphonetext2 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+.container3 .box3 .bdiv3 #bphone3 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container3 .box3 .bdiv3 #bphonetext3 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+.container3 .box3 .bdiv4 #bphone4 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container3 .box3 .bdiv4 #bphonetext4 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+.bdiv2 {
+    position: relative;
+    display: block;
+    margin-top: -170px;
+    margin-left: 138px;
+}
+
+.bdiv4 {
+    position: relative;
+    display: block;
+    margin-top: -170px;
+    margin-left: 138px;
+}
+
+.container3 .box3 #bviewmore1 {
+    position: relative;
+    display: block;
+    color: rgb(0, 60, 255);
+    margin-top: -8px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.box3 {
+    position: relative;
+    display: block;
+    margin-top: -610px;
+    margin-left: 15px;
+}
+
+
+
+
+
+                                                                    /*box 4*/
+
+
+.container4 {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    height: 430px;
+    width: 300px;
+    top: -16px;
+    left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1%;
+    border-color: rgb(0,0,0,0);
+
+    
+}
+
+.container4 .ctext-1 {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+    padding-top: 0px;
+    padding-left: 15px;
+}
+
+.container4 .box4 {
+    position: relative;
+    display: block;
+    top: 600px;
+}
+
+.container4 .box4 .cdiv1 #cphone1 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container4 .box4 .cdiv1 #cphonetext1 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+
+.container4 .box4 .cdiv2 #cphone2 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container4 .box4 .cdiv2 #cphonetext2 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+.container4 .box4 .cdiv3 #cphone3 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container4 .box4 .cdiv3 #cphonetext3 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+.container4 .box4 .cdiv4 #cphone4 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container4 .box4 .cdiv4 #cphonetext4 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+.cdiv2 {
+    position: relative;
+    display: block;
+    margin-top: -170px;
+    margin-left: 138px;
+}
+
+.cdiv4 {
+    position: relative;
+    display: block;
+    margin-top: -170px;
+    margin-left: 138px;
+}
+
+.container4 .box4 #cviewmore1 {
+    position: relative;
+    display: block;
+    color: rgb(0, 60, 255);
+    margin-top: -8px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.box4 {
+    position: relative;
+    display: block;
+    margin-top: -610px;
+    margin-left: 15px;
+}
+
+
+
+
+
+                                                              /*box 5*/
+
+.container5 {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    height: 430px;
+    width: 300px;
+    left: 30px;
+    top: -190px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1%;
+    border-color: rgb(0,0,0,0);
+    
+}
+
+.container5 .dtext-1 {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+    padding-top: 0px;
+    padding-left: 15px;
+}
+
+.container5 .box5 {
+    position: relative;
+    display: block;
+    top: 600px;
+}
+
+.container5 .box5 .ddiv1 #dphone1 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container5 .box5 .ddiv1 #dphonetext1 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+
+.container5 .box5 .ddiv2 #dphone2 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container5 .box5 .ddiv2 #dphonetext2 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+.container5 .box5 .ddiv3 #dphone3 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container5 .box5 .ddiv3 #dphonetext3 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+.container5 .box5 .ddiv4 #dphone4 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container5 .box5 .ddiv4 #dphonetext4 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+.ddiv2 {
+    position: relative;
+    display: block;
+    margin-top: -170px;
+    margin-left: 138px;
+}
+
+.ddiv4 {
+    position: relative;
+    display: block;
+    margin-top: -170px;
+    margin-left: 138px;
+}
+
+.container5 .box5 #dviewmore1 {
+    position: relative;
+    display: block;
+    color: rgb(0, 60, 255);
+    margin-top: -8px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.box5 {
+    position: relative;
+    display: block;
+    margin-top: -610px;
+    margin-left: 15px;
+}
+
+
+
+
+
+                                              /*Box 6*/
+
+.container6 {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    height: 430px;
+    width: 300px;
+    top: -190px;
+    left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1%;
+    border-color: rgb(0,0,0,0);
+    
+}
+
+.container6 .etext-1 {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+    padding-top: 0px;
+    padding-left: 15px;
+}
+
+.container6 .box6 {
+    position: relative;
+    display: block;
+    top: 600px;
+}
+
+.container6 .box6 .ediv1 #ephone1 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container6 .box6 .ediv1 #ephonetext1 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+
+.container6 .box6 .ediv2 #ephone2 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container6 .box6 .ediv2 #ephonetext2 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+.container6 .box6 .ediv3 #ephone3 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container6 .box6 .ediv3 #ephonetext3 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+.container6 .box6 .ediv4 #ephone4 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container6 .box6 .ediv4 #ephonetext4 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+.ediv2 {
+    position: relative;
+    display: block;
+    margin-top: -170px;
+    margin-left: 138px;
+}
+
+.ediv4 {
+    position: relative;
+    display: block;
+    margin-top: -170px;
+    margin-left: 138px;
+}
+
+.container6 .box6 #eviewmore1 {
+    position: relative;
+    display: block;
+    color: rgb(0, 60, 255);
+    margin-top: -8px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.box6 {
+    position: relative;
+    display: block;
+    margin-top: -610px;
+    margin-left: 15px;
+}
+
+
+
+
+                                           /*box 7*/
+.container7 {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    height: 430px;
+    width: 300px;
+    top: -190px;
+    left: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1%;
+    border-color: rgb(0,0,0,0);
+    
+}
+
+.container7 .ftext-1 {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+    padding-top: 0px;
+    padding-left: 15px;
+}
+
+.container7 .box7 {
+    position: relative;
+    display: block;
+    top: 600px;
+}
+
+.container7 .box7 .fdiv1 #fphone1 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container7 .box7 .fdiv1 #fphonetext1 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+
+.container7 .box7 .fdiv2 #fphone2 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container7 .box7 .fdiv2 #fphonetext2 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+.container7 .box7 .fdiv3 #fphone3 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container7 .box7 .fdiv3 #fphonetext3 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+.container7 .box7 .fdiv4 #fphone4 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container7 .box7 .fdiv4 #fphonetext4 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+.fdiv2 {
+    position: relative;
+    display: block;
+    margin-top: -170px;
+    margin-left: 138px;
+}
+
+.fdiv4 {
+    position: relative;
+    display: block;
+    margin-top: -170px;
+    margin-left: 138px;
+}
+
+.container7 .box7 #fviewmore1 {
+    position: relative;
+    display: block;
+    color: rgb(0, 60, 255);
+    margin-top: -8px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.box7 {
+    position: relative;
+    display: block;
+    margin-top: -610px;
+    margin-left: 15px;
+}
+
+
+
+
+                                       /*Box 8*/
+.container8 {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    height: 430px;
+    width: 300px;
+    top: -190px;
+    left: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1%;
+    border-color: rgb(0,0,0,0);
+    
+}
+
+.container8 .gtext-1 {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+    padding-top: 0px;
+    padding-left: 15px;
+}
+
+.container8 .box8 {
+    position: relative;
+    display: block;
+    top: 600px;
+}
+
+.container8 .box8 .gdiv1 #gphone1 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container8 .box8 .gdiv1 #gphonetext1 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+
+.container8 .box8 .gdiv2 #gphone2 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container8 .box8 .gdiv2 #gphonetext2 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+.container8 .box8 .gdiv3 #gphone3 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container8 .box8 .gdiv3 #gphonetext3 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+.container8 .box8 .gdiv4 #gphone4 {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.container8 .box8 .gdiv4 #gphonetext4 {
+    position: relative;
+    font-weight: light;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    top: -8px;
+    text-decoration: none;
+}
+
+.gdiv2 {
+    position: relative;
+    display: block;
+    margin-top: -170px;
+    margin-left: 138px;
+}
+
+.gdiv4 {
+    position: relative;
+    display: block;
+    margin-top: -170px;
+    margin-left: 138px;
+}
+
+.container8 .box8 #gviewmore1 {
+    position: relative;
+    display: block;
+    color: rgb(0, 60, 255);
+    margin-top: -8px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.box8 {
+    position: relative;
+    display: block;
+    margin-top: -610px;
+    margin-left: 15px;
+}
+
+
+
+
+               /*horizontaly scrolling div box for products next to second row*/
+
+.scrolling-wrapper {
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    height: 320px;
+    width: 96%;
+    margin-top: -160px;
+    left: 25px;
+}
+
+.scrolling-wrapper .scrollingdiv {
+    display: block;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    white-space: nowrap;
+    height: 240px;
+    width: 97%;
+    overflow-x: scroll;
+    top: 0px;
+    left: 12px;
+}
+
+.scrolling-wrapper .scrollingdiv #product {
+    display: inline-block;
+    position: relative;
+    max-height: 210px;
+    top: 10px;
+}
+
+.scrollheading1 {
+    display: block;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(49, 49, 49);
+    font-size: 23px;
+    font-weight: bold;
+    top: 0px;
+    left: 20px;
+}
+
+.scrolling-wrapper .scrollingdiv::-webkit-scrollbar {
+    height: 12px;
+}
+
+.scrolling-wrapper .scrollingdiv::-webkit-scrollbar-thumb {
+    display: block;
+    position: relative;
+    border-radius: 10px; 
+    border: 3px solid transparent; 
+    background-clip: content-box; 
+}
+
+.scrolling-wrapper .scrollingdiv::-webkit-scrollbar-thumb:hover {
+    background-color: darkgrey;
+}
+
+
+
+                                 /*Horizontaly scrolling box 2*/
+
+.ascrolling-wrapper {
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    height: 320px;
+    width: 96%;
+    margin-top: 30px;
+    left: 25px;
+}
+
+.ascrolling-wrapper .ascrollingdiv {
+    display: block;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    white-space: nowrap;
+    height: 240px;
+    width: 97%;
+    overflow-x: scroll;
+    top: 0px;
+    left: 12px;
+}
+
+.ascrolling-wrapper .ascrollingdiv #aproduct {
+    display: inline-block;
+    position: relative;
+    max-height: 210px;
+    top: 10px;
+}
+
+.ascrollheading1 {
+    display: block;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(49, 49, 49);
+    font-size: 23px;
+    font-weight: bold;
+    top: 0px;
+    left: 20px;
+}
+
+.ascrolling-wrapper .ascrollingdiv::-webkit-scrollbar {
+    height: 12px;
+}
+
+.ascrolling-wrapper .ascrollingdiv::-webkit-scrollbar-thumb {
+    display: block;
+    position: relative;
+    border-radius: 10px; 
+    border: 3px solid transparent; 
+    background-clip: content-box; 
+}
+
+.ascrolling-wrapper .ascrollingdiv::-webkit-scrollbar-thumb:hover {
+    background-color: darkgrey;
+}
+
+
+
+
+                                       /* row 3 box 1 */
+                                       
+
+.container9 {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    height: 380px;
+    width: 300px;
+    top: -240px;
+    left: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1%;
+    border-color: rgb(0,0,0,0);
+    
+}
+
+.container9 .htext-1 {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+    padding-top: 0px;
+    padding-left: 15px;
+}
+
+.container9 .box9 {
+    position: relative;
+    display: block;
+    top: 600px;
+}
+
+.container9 .box9 .hdiv1 #hphone1 {
+    position: relative;
+    display: block;
+    max-height: 270px;
+    width: auto;
+}
+
+
+.box9 {
+    position: relative;
+    display: block;
+    margin-top: -610px;
+    margin-left: 15px;
+}
+
+.container9 .box9 #hviewmore1 {
+    position: relative;
+    display: block;
+    color: rgb(0, 60, 255);
+    top: 10px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+
+
+
+                                               /* row3 box2 */
+
+.container10 {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    height: 380px;
+    width: 300px;
+    left: 50px;
+    top: -240px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1%;
+    border-color: rgb(0,0,0,0);
+    
+}
+
+.container10 .itext-1 {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+    padding-top: 0px;
+    padding-left: 15px;
+}
+
+.container10 .box10 {
+    position: relative;
+    display: block;
+    top: 600px;
+}
+
+.container10 .box10 .idiv1 #iphone1 {
+    position: relative;
+    display: block;
+    max-height: 270px;
+    width: auto;
+}
+
+
+.box10 {
+    position: relative;
+    display: block;
+    margin-top: -610px;
+    margin-left: 15px;
+}
+
+.container10 .box10 #iviewmore1 {
+    position: relative;
+    display: block;
+    color: rgb(0, 60, 255);
+    top: 10px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.container11 {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    height: 380px;
+    width: 300px;
+    left: 75px;
+    top: -240px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1%;
+    border-color: rgb(0,0,0,0);
+    padding-top: 0%;
+    
+}
+
+.container11 .jtext-1 {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+    padding-top: 0px;
+    padding-left: 15px;
+}
+
+.container11 .box11 {
+    position: relative;
+    display: block;
+    top: 600px;
+}
+
+.container11 .box11 .jdiv1 #jphone1 {
+    position: relative;
+    display: block;
+    max-height: 270px;
+    width: auto;
+}
+
+
+.box11 {
+    position: relative;
+    display: block;
+    margin-top: -610px;
+    margin-left: 15px;
+}
+
+.container11 .box11 #jviewmore1 {
+    position: relative;
+    display: block;
+    color: rgb(0, 60, 255);
+    top: 10px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+
+.container12 {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    height: 380px;
+    width: 300px;
+    left: 100px;
+    top: -240px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1%;
+    border-color: rgb(0,0,0,0);
+    padding-top: 0%;
+    
+}
+
+.container12 .ktext-1 {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+    padding-top: 0px;
+    padding-left: 15px;
+}
+
+.container12 .box12 {
+    position: relative;
+    display: block;
+    top: 600px;
+}
+
+.container12 .box12 .kdiv1 #kphone1 {
+    position: relative;
+    display: block;
+    max-height: 270px;
+    width: auto;
+}
+
+
+.box12 {
+    position: relative;
+    display: block;
+    margin-top: -610px;
+    margin-left: 15px;
+}
+
+.container12 .box12 #kviewmore1 {
+    position: relative;
+    display: block;
+    color: rgb(0, 60, 255);
+    top: 10px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    bottom: 0%;
+}
+
+
+
+
+
+
+
+                                            /* footer */
+
+.footerbox .back {
+    display: block;
+    position: relative;
+    background-color: #3d4d5c;;
+    height: 50px;
+    width: 100%;
+    color: white;
+    border-width: 2px 0 0 0;
+    border-color: white;
+    font-size: 11px;
+    transition-duration: 0.3s;
+}
+
+.footerbox .back:hover {
+    background-color: #31465a;
+}
+
+.footerbox .footer {
+    display: block;
+    position: relative;
+    height: 300px;
+    background-color: #212f3d;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footerbox .footer .colum1 #h41 {
+    display: block;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footerbox .footer .colum1 #textcolum1 {
+    display: block;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+    font-size: 14px;
+    padding-bottom: 15px;
+    font-weight: lighter;
+}
+
+.footerbox .footer .colum2 #h42 {
+    display: block;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footerbox .footer .colum2 #textcolum2 {
+    display: block;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+    font-size: 14px;
+    padding-bottom: 15px;
+    font-weight: lighter;
+}
+
+.footerbox .footer .colum3 #h43 {
+    display: block;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footerbox .footer .colum3 #textcolum3 {
+    display: block;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+    font-size: 14px;
+    padding-bottom: 15px;
+    font-weight: lighter;
+}
+
+.footerbox .footer .colum4 #h44 {
+    display: block;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footerbox .footer .colum4 #textcolum4 {
+    display: block;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+    font-size: 14px;
+    padding-bottom: 15px;
+    font-weight: lighter;
+}
+
+.footerbox .footer .colum1 {
+    display: block;
+    position: relative;
+    padding-top: 40px;
+    left: 100px;
+}
+
+.footerbox .footer .colum2 {
+    display: block;
+    position: relative;
+    margin-top: -150px;
+    left: 350px;
+}
+
+.footerbox .footer .colum3 {
+    display: block;
+    position: relative;
+    margin-top: -215px;
+    left: 680px;
+}
+
+.footerbox .footer .colum4 {
+    display: block;
+    position: relative;
+    margin-top: -180px;
+    left: 1100px;
+}
+
+
+.footerbox .footerlast {
+    display: block;
+    background-color: #151e27;
+    width: 100%;
+    height: 120px;
+}
+
+.footerbox .footerlast .links #condition {
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.footerbox .footerlast .links #condition:hover {
+    text-decoration: underline;
+}
+
+.footerbox .footerlast .links {
+    padding-top: 30px;
+    margin-left: 280px;
+}
+
+.footerbox .footerlast #credits {
+    display: inline-block;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    text-decoration: none; 
+    text-align: center;
+    left: 500px;
+    top: 0px;
+}
+
+.footerbox {
+    display: block;
+    position: relative;
+    bottom: -50px;
+}
